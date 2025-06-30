@@ -85,7 +85,7 @@ object DadosMockados {
         ),
 
         Receita(
-            id = 1,
+            id = 4,
             nome = "Panqueca Vegana de Banana",
             descricaoCurta = "Panqueca saudável sem glúten, leite ou ovos.",
             imagemUrl = "https://naminhapanela.com/wp-content/uploads/2020/03/panqueca-de-banana-vegana-2-1900x1267.jpg",

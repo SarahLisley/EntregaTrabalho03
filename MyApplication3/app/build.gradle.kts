@@ -40,6 +40,12 @@ android {
 }
 
 dependencies {
+    // Accompanist para Pull-to-Refresh
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.30.1")
+// Accompanist para Placeholder
+    implementation("com.google.accompanist:accompanist-placeholder-material:0.30.1")
+// Coil para carregamento de imagem
+    implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("androidx.datastore:datastore-preferences:1.1.7")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -49,6 +55,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.protolite.well.known.types)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

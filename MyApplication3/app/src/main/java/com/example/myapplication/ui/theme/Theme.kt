@@ -16,6 +16,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
+
 // Defina seus esquemas de cores claros e escuros
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
